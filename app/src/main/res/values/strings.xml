@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Gesture Navigation</string>
+    <string name="nav_header_title">Styling Android</string>
+    <string name="nav_header_subtitle">https://stylingandroid.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+</resources>
