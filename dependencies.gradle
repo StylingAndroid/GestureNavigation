@@ -1,17 +1,18 @@
 ext {
     detektVersion = '1.0.0-RC14'
     ktlintVersion = '0.31.0'
+    navigationVersion = "2.1.0-alpha04"
 
     libraries = [
             appcompat            : 'androidx.appcompat:appcompat:1.1.0-alpha05',
             corektx              : 'androidx.core:core-ktx:1.2.0-alpha01',
             constraintlayout     : 'androidx.constraintlayout:constraintlayout:2.0.0-beta1',
             kotlin               : "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version",
-            material             : 'com.google.android.material:material:1.0.0',
-            navigationfragment   : 'androidx.navigation:navigation-fragment:2.0.0',
-            navigationfragmentktx: 'androidx.navigation:navigation-fragment-ktx:2.0.0',
-            navigationui         : 'androidx.navigation:navigation-ui:2.0.0',
-            navigationuiktx      : 'androidx.navigation:navigation-ui-ktx:2.0.0',
+            material             : 'com.google.android.material:material:1.1.0-alpha06',
+            navigationfragment   : "androidx.navigation:navigation-fragment:$navigationVersion",
+            navigationfragmentktx: "androidx.navigation:navigation-fragment-ktx:$navigationVersion",
+            navigationui         : "androidx.navigation:navigation-ui:$navigationVersion",
+            navigationuiktx      : "androidx.navigation:navigation-ui-ktx:$navigationVersion",
             drawerlayout         : 'androidx.drawerlayout:drawerlayout:1.1.0-alpha01'
     ]
 }
