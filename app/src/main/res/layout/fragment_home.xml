@@ -4,16 +4,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-
     <com.stylingandroid.gesturenav.ui.home.MyCustomView
         android:id="@+id/custom_view"
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:background="@color/colorAccent"
+        app:layout_constraintBottom_toBottomOf="@id/guideline"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="@id/guideline"
-        android:background="@color/colorAccent"/>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline"
@@ -22,4 +21,17 @@
         android:orientation="horizontal"
         app:layout_constraintGuide_percent="0.25" />
 
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@null"
+        android:elevation="8dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/cross"
+        android:tint="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
