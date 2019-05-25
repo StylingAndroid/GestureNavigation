@@ -15,11 +15,6 @@
         android:id="@+id/nav_gallery"
         android:name="com.stylingandroid.gesturenav.ui.gallery.GalleryFragment"
         android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" >
-        <argument
-            android:name="BottomPadding"
-            app:argType="integer"
-            android:defaultValue="0" />
-    </fragment>
+        tools:layout="@layout/fragment_gallery" />
 
 </navigation>
